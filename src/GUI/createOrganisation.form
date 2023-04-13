@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="shortName" min="-2" pref="65" max="-2" attributes="0"/>
+                              <Component id="orgId" min="-2" max="-2" attributes="0"/>
+                              <Component id="endPart" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="createProId" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="createProAcronym" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="country" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="city" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="subjects" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="proAcrnm" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  <Component id="proId" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  <Component id="orgIdField" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  <Component id="shortNameField" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  <Component id="endPartField" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  <Component id="countryField" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  <Component id="cityField" alignment="0" pref="140" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="95" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="vatNum" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="vatNumField" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="postCode" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="postCodeField" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="street" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="streetField" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="ecCont" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="ecContField" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="name" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="nameField" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="orgRole" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="roleField" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="actType" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="actTypeField" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="createProRcn" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                                      <Component id="proRCN" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="participants" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="277" max="-2" attributes="0"/>
+                                  <Component id="createOrg" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="createProId" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="createProRcn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="proId" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="proRCN" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="createProAcronym" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="orgRole" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="roleField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="proAcrnm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="nameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="orgIdField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="orgId" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="shortNameField" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="shortName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="actType" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="actTypeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="endPart" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="endPartField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ecCont" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="ecContField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="country" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="countryField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="street" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="streetField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="city" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cityField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="postCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="postCodeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="vatNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="vatNumField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="subjects" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="participants" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="38" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="createOrg" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="createOrg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Create"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createOrgActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="createProId">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Project ID: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="createProRcn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Project RCN: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="proId">
+        </Component>
+        <Component class="javax.swing.JTextField" name="proRCN">
+        </Component>
+        <Component class="javax.swing.JLabel" name="createProAcronym">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Acronym: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="orgRole">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Role: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="proAcrnm">
+        </Component>
+        <Component class="javax.swing.JTextField" name="roleField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="name">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="shortNameField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="nameField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="shortName">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Short Name: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="orgId">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Org ID: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="orgIdField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="actType">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Activity Type:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="endPartField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="ecCont">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="EC Contribution: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="country">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Country: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="endPart">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End of Participation:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="city">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="City: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="actTypeField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="street">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Street: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Create Organisation"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="postCode">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PostCode:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="participants">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="URL: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="vatNum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="VAT:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="subjects">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contact Form: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ecContField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="countryField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="streetField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="cityField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="postCodeField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="vatNumField">
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="urlField">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="contactFormField">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
